@@ -186,6 +186,7 @@
 .i-hero__img-container {
   display: flex;
   justify-content: center;
+  padding-top: 10%;
 }
 
 .i-hero__img-pro-tech-container {
