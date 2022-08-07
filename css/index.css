@@ -16,8 +16,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #20232a80;
-  box-shadow: 0 0 0.0625rem 0.0625rem #fff8;
+ /* background-image: url("../assets/img/fondoheader.png");*/
+  background-color: #222222EB;
+  box-shadow: 0 0 0.0625rem 0.0625rem #222222EB;
 }
 
 .header-nav {
@@ -37,8 +38,8 @@
 }
 
 .header-nav__link-logo {
-  width: 108px;
-  height: 32px;
+  width: 90px;
+  height: 70px;
 }
 
 .header-nav__menu-list-container {
@@ -69,7 +70,7 @@
   bottom: -0.125rem;
   width: 0;
   height: 0.0625rem;
-  background-color: gold;
+  background-color: orange;
   transition: width 0.25s ease-in-out;
 }
 
