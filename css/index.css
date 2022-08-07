@@ -88,16 +88,13 @@
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #222222EB;
   background-position: center;
+  background-image: url('../assets/img/bg_header.png');
+  background-color: #0004;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
   padding: 8%;
-}
-
-.i-hero_container_principal{
-  background-image: url('../assets/img/bg_header.png');
 }
 
 .i-hero::before {
@@ -154,6 +151,7 @@
 .i-hero__info-paragraph {
   display: none;
 }
+
 .i-hero__info-paragraph-especial {
   font-family:cursive;
   color: indianred;
@@ -170,7 +168,6 @@
   text-decoration: none;
   padding: 0.5em 2em;
   cursor: pointer;
-  /* box-sizing: border-box; */
   transition: filter 0.25s, box-shadow 0.25s;
 }
 
